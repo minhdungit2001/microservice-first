@@ -13,6 +13,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/inventory")
 @RequiredArgsConstructor
+@
 public class InventoryController {
     private static final Logger log = LoggerFactory.getLogger(InventoryController.class);
     private final InventoryService inventoryService;
